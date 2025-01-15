@@ -1,0 +1,564 @@
+[2025-01-15 10:18:38] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 10:18:38] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 10:18:38] [INFO] mosquitto_new: Success
+
+[2025-01-15 10:18:38] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 10:18:38] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 10:18:38] [INFO] TLS configuration successful.
+
+[2025-01-15 10:18:38] [INFO] Successfully connected to broker
+
+[2025-01-15 10:18:38] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 10:18:38] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 10:18:39] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 10:18:39] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 10:18:47] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 10:18:47] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 10:18:47] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 10:18:47] [DEBUG] Bin file size: 138101627400155 bytes
+
+[2025-01-15 10:18:47] [DEBUG] Sending file to (null)...
+
+[2025-01-15 10:18:47] [INFO] mosquitto_publish: Success
+
+[2025-01-15 10:18:47] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 10:18:47] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 10:25:12] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 10:25:12] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 10:25:12] [INFO] mosquitto_new: Success
+
+[2025-01-15 10:25:12] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 10:25:12] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 10:25:12] [INFO] TLS configuration successful.
+
+[2025-01-15 10:25:12] [INFO] Successfully connected to broker
+
+[2025-01-15 10:25:12] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 10:25:12] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 10:25:13] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 10:25:13] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 10:25:21] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 10:25:21] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 10:25:21] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 10:25:21] [DEBUG] Bin file size: 131306544541659 bytes
+
+[2025-01-15 10:25:21] [DEBUG] Sending file to (null)...
+
+[2025-01-15 10:25:21] [INFO] mosquitto_publish: Success
+
+[2025-01-15 10:25:21] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 10:25:21] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 11:19:33] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 11:19:33] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 11:19:33] [INFO] mosquitto_new: Success
+
+[2025-01-15 11:19:33] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 11:19:33] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 11:19:33] [INFO] TLS configuration successful.
+
+[2025-01-15 11:19:33] [INFO] Successfully connected to broker
+
+[2025-01-15 11:19:33] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 11:19:33] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 11:19:33] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 11:19:33] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 11:19:46] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 11:19:46] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 11:19:46] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 11:19:46] [DEBUG] Bin file size: 125424962219995 bytes
+
+[2025-01-15 11:19:46] [DEBUG] Sending file to (null)...
+
+[2025-01-15 11:19:46] [INFO] mosquitto_publish: Success
+
+[2025-01-15 11:19:47] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 11:19:47] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 11:59:47] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 11:59:47] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 11:59:47] [INFO] mosquitto_new: Success
+
+[2025-01-15 11:59:47] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 11:59:47] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 11:59:47] [INFO] TLS configuration successful.
+
+[2025-01-15 11:59:48] [INFO] Successfully connected to broker
+
+[2025-01-15 11:59:48] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 11:59:48] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 11:59:48] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 11:59:48] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 12:00:02] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:00:02] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 12:00:39] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 12:00:39] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 12:00:39] [INFO] mosquitto_new: Success
+
+[2025-01-15 12:00:39] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 12:00:39] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 12:00:39] [INFO] TLS configuration successful.
+
+[2025-01-15 12:00:39] [INFO] Successfully connected to broker
+
+[2025-01-15 12:00:39] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 12:00:39] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 12:00:40] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 12:00:40] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 12:00:47] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:00:47] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 12:00:47] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 12:00:47] [DEBUG] Bin file size: 130533987299291 bytes
+
+[2025-01-15 12:00:47] [DEBUG] Sending file to (null)...
+
+[2025-01-15 12:00:47] [INFO] mosquitto_publish: Success
+
+[2025-01-15 12:00:47] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:00:47] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:01:11] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:01:11] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 12:02:21] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 12:02:21] [INFO] mosquitto_new: Success
+
+[2025-01-15 12:02:21] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 12:02:21] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 12:02:21] [INFO] TLS configuration successful.
+
+[2025-01-15 12:02:21] [INFO] Successfully connected to broker
+
+[2025-01-15 12:02:21] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 12:02:21] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 12:02:22] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 12:02:22] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 12:02:27] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:02:27] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 12:02:56] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 12:02:56] [INFO] mosquitto_new: Success
+
+[2025-01-15 12:02:56] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 12:02:56] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 12:02:56] [INFO] TLS configuration successful.
+
+[2025-01-15 12:02:56] [INFO] Successfully connected to broker
+
+[2025-01-15 12:02:56] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 12:02:56] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 12:02:57] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 12:02:57] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 12:03:13] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:03:13] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 12:04:04] [ERROR] DEVICE_LIST environment variable not set.
+
+[2025-01-15 12:04:26] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 12:04:26] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 12:04:26] [INFO] mosquitto_new: Success
+
+[2025-01-15 12:04:26] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 12:04:26] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 12:04:26] [INFO] TLS configuration successful.
+
+[2025-01-15 12:04:26] [INFO] Successfully connected to broker
+
+[2025-01-15 12:04:26] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 12:04:26] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 12:04:27] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 12:04:27] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 12:04:33] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:04:33] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 12:04:33] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 12:04:33] [DEBUG] Bin file size: 135549148049371 bytes
+
+[2025-01-15 12:04:33] [DEBUG] Sending file to (null)...
+
+[2025-01-15 12:04:33] [INFO] mosquitto_publish: Success
+
+[2025-01-15 12:04:33] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:04:33] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:04:33] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:04:52] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 12:04:52] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 13:09:37] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 13:09:37] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 13:09:37] [INFO] mosquitto_new: Success
+
+[2025-01-15 13:09:37] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 13:09:37] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 13:09:37] [INFO] TLS configuration successful.
+
+[2025-01-15 13:09:38] [INFO] Successfully connected to broker
+
+[2025-01-15 13:09:38] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 13:09:38] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 13:09:38] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 13:09:38] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 13:09:51] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 13:09:51] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 13:09:51] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 13:09:51] [DEBUG] Bin file size: 123190402723803 bytes
+
+[2025-01-15 13:09:51] [DEBUG] MD5 Checksum: (null)
+
+[2025-01-15 13:09:51] [INFO] mosquitto_publish: Success
+
+[2025-01-15 13:10:35] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 13:10:35] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 13:10:35] [INFO] mosquitto_new: Success
+
+[2025-01-15 13:10:35] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 13:10:35] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 13:10:35] [INFO] TLS configuration successful.
+
+[2025-01-15 13:10:35] [INFO] Successfully connected to broker
+
+[2025-01-15 13:10:35] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 13:10:35] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 13:10:36] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 13:10:36] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 13:10:46] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 13:10:46] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 13:10:46] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 13:10:46] [DEBUG] Bin file size: 123873048768475 bytes
+
+[2025-01-15 13:10:46] [DEBUG] MD5 Checksum: (null)
+
+[2025-01-15 13:10:46] [INFO] mosquitto_publish: Success
+
+[2025-01-15 13:10:46] [INFO] mosquitto_publish: Success
+
+[2025-01-15 13:16:47] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 13:16:47] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 13:16:47] [INFO] mosquitto_new: Success
+
+[2025-01-15 13:16:47] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 13:16:47] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 13:16:47] [INFO] TLS configuration successful.
+
+[2025-01-15 13:16:48] [INFO] Successfully connected to broker
+
+[2025-01-15 13:16:48] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 13:16:48] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 13:16:48] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 13:16:48] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 13:16:56] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 13:16:56] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 13:16:56] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 13:16:56] [DEBUG] Bin file size: 127024533450715 bytes
+
+[2025-01-15 13:16:56] [DEBUG] MD5 Checksum: (null)
+
+[2025-01-15 13:16:56] [INFO] mosquitto_publish: Success
+
+[2025-01-15 13:16:56] [INFO] mosquitto_publish: Success
+
+[2025-01-15 14:11:26] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 14:11:26] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 14:11:26] [INFO] mosquitto_new: Success
+
+[2025-01-15 14:11:26] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 14:11:26] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 14:11:26] [INFO] TLS configuration successful.
+
+[2025-01-15 14:11:26] [INFO] Successfully connected to broker
+
+[2025-01-15 14:11:26] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 14:11:26] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 14:11:27] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:11:27] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:11:36] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 14:11:36] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 14:11:36] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 14:11:36] [DEBUG] Bin file size: 123177796743131 bytes
+
+[2025-01-15 14:11:36] [DEBUG] MD5 Checksum: (null)
+
+[2025-01-15 14:11:36] [INFO] mosquitto_publish: Success
+
+[2025-01-15 14:11:36] [INFO] mosquitto_publish: Success
+
+[2025-01-15 14:13:41] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 14:13:41] [INFO] mosquitto_new: Success
+
+[2025-01-15 14:13:41] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 14:13:41] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 14:13:41] [INFO] TLS configuration successful.
+
+[2025-01-15 14:13:42] [INFO] Successfully connected to broker
+
+[2025-01-15 14:13:42] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 14:13:42] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 14:13:42] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:13:42] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:13:53] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 14:13:53] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 14:14:30] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 14:14:30] [INFO] mosquitto_new: Success
+
+[2025-01-15 14:14:30] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 14:14:30] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 14:14:30] [INFO] TLS configuration successful.
+
+[2025-01-15 14:14:31] [INFO] Successfully connected to broker
+
+[2025-01-15 14:14:31] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 14:14:31] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 14:14:31] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:14:31] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:14:41] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 14:14:41] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 14:30:02] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 14:30:02] [INFO] mosquitto_new: Success
+
+[2025-01-15 14:30:02] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 14:30:02] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 14:30:02] [INFO] TLS configuration successful.
+
+[2025-01-15 14:30:02] [INFO] Successfully connected to broker
+
+[2025-01-15 14:30:02] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 14:30:02] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 14:30:03] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:30:03] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:30:13] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 14:30:13] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 14:32:00] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 14:32:00] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 14:32:00] [INFO] mosquitto_new: Success
+
+[2025-01-15 14:32:00] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 14:32:00] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 14:32:00] [INFO] TLS configuration successful.
+
+[2025-01-15 14:32:00] [INFO] Successfully connected to broker
+
+[2025-01-15 14:32:00] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 14:32:00] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 14:32:01] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:32:01] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:32:08] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 14:32:08] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 14:32:08] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 14:32:08] [DEBUG] Bin file size: 129474531274715 bytes
+
+[2025-01-15 14:32:08] [DEBUG] MD5 Checksum: (null)
+
+[2025-01-15 14:32:08] [INFO] mosquitto_publish: Success
+
+[2025-01-15 14:32:08] [INFO] mosquitto_publish: Success
+
+[2025-01-15 14:42:27] [INFO] Parsed selected device list from getenv, stored in selected_devices[] array
+
+[2025-01-15 14:42:27] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 14:42:27] [INFO] mosquitto_new: Success
+
+[2025-01-15 14:42:27] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 14:42:27] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 14:42:27] [INFO] TLS configuration successful.
+
+[2025-01-15 14:42:28] [INFO] Successfully connected to broker
+
+[2025-01-15 14:42:28] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 14:42:28] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 14:42:28] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:42:28] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 14:42:36] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 14:42:36] [DEBUG] Checking device ID: (null)
+
+[2025-01-15 14:42:36] [DEBUG] Device ID (null) is selected.
+
+[2025-01-15 14:42:36] [DEBUG] Bin file size: 135935980318683 bytes
+
+[2025-01-15 14:42:36] [DEBUG] Sending file to (null)...
+
+[2025-01-15 14:42:36] [INFO] mosquitto_publish: Success
+
+[2025-01-15 14:42:37] [INFO] Received message on topic (null): (null)
+
+[2025-01-15 14:42:37] [INFO] Received message on topic (null): (null)
+
