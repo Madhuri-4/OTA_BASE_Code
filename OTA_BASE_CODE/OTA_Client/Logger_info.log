@@ -4651,3 +4651,451 @@ INFO] Subscribed to topic: H=
 
 [2025-01-15 14:42:37] [INFO] mosquitto_publish: Success
 
+[2025-01-15 15:40:37] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 15:40:37] [INFO] mosquitto_new: Success
+
+[2025-01-15 15:40:37] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 15:40:37] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 15:40:37] [INFO] mosquitto_connect: Success
+
+[2025-01-15 15:40:37] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 15:40:37] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 15:40:38] [INFO] On Connect succuesfull!
+
+[2025-01-15 15:40:38] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:40:38] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:40:38] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:40:38] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:43:35] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 15:43:35] [INFO] mosquitto_new: Success
+
+[2025-01-15 15:43:35] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 15:43:35] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 15:43:35] [INFO] mosquitto_connect: Success
+
+[2025-01-15 15:43:35] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 15:43:35] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 15:43:36] [INFO] On Connect succuesfull!
+
+[2025-01-15 15:43:36] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:43:36] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:43:36] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:43:37] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:47:49] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:49:52] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:49:52] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:51:00] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 15:51:00] [INFO] mosquitto_new: Success
+
+[2025-01-15 15:51:00] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 15:51:00] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 15:51:00] [INFO] mosquitto_connect: Success
+
+[2025-01-15 15:51:00] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 15:51:00] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 15:51:01] [INFO] On Connect succuesfull!
+
+[2025-01-15 15:51:01] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:51:01] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:51:01] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:51:01] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:51:18] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:52:01] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 15:52:01] [INFO] mosquitto_new: Success
+
+[2025-01-15 15:52:01] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 15:52:01] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 15:52:01] [INFO] mosquitto_connect: Success
+
+[2025-01-15 15:52:01] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 15:52:01] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 15:52:02] [INFO] On Connect succuesfull!
+
+[2025-01-15 15:52:02] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:52:02] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:52:02] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:52:02] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:53:38] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 15:53:38] [INFO] mosquitto_new: Success
+
+[2025-01-15 15:53:38] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 15:53:38] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 15:53:38] [INFO] mosquitto_connect: Success
+
+[2025-01-15 15:53:38] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 15:53:38] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 15:53:39] [INFO] On Connect succuesfull!
+
+[2025-01-15 15:53:39] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:53:39] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:53:39] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:53:40] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:54:24] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 15:54:24] [INFO] mosquitto_new: Success
+
+[2025-01-15 15:54:24] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 15:54:24] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 15:54:24] [INFO] mosquitto_connect: Success
+
+[2025-01-15 15:54:24] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 15:54:24] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 15:54:24] [INFO] On Connect succuesfull!
+
+[2025-01-15 15:54:24] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:54:24] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:54:24] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:54:25] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:54:50] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:55:45] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 15:55:45] [INFO] mosquitto_new: Success
+
+[2025-01-15 15:55:45] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 15:55:45] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 15:55:45] [INFO] mosquitto_connect: Success
+
+[2025-01-15 15:55:45] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 15:55:45] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 15:55:46] [INFO] On Connect succuesfull!
+
+[2025-01-15 15:55:46] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:55:46] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:55:46] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:55:46] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:56:10] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:58:37] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 15:58:37] [INFO] mosquitto_new: Success
+
+[2025-01-15 15:58:37] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 15:58:37] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 15:58:37] [INFO] mosquitto_connect: Success
+
+[2025-01-15 15:58:37] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 15:58:37] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 15:58:37] [INFO] On Connect succuesfull!
+
+[2025-01-15 15:58:37] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:58:37] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 15:58:37] [INFO] mosquitto_publish: Success
+
+[2025-01-15 15:58:38] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:09:21] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 16:09:21] [INFO] mosquitto_new: Success
+
+[2025-01-15 16:09:21] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 16:09:21] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 16:09:22] [INFO] mosquitto_connect: Success
+
+[2025-01-15 16:09:22] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 16:09:22] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 16:09:22] [INFO] On Connect succuesfull!
+
+[2025-01-15 16:09:22] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:09:22] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:09:22] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:09:23] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:10:28] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 16:10:28] [INFO] mosquitto_new: Success
+
+[2025-01-15 16:10:28] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 16:10:28] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 16:10:29] [INFO] mosquitto_connect: Success
+
+[2025-01-15 16:10:29] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 16:10:29] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 16:10:29] [INFO] On Connect succuesfull!
+
+[2025-01-15 16:10:29] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:10:29] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:10:29] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:10:30] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:11:55] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 16:11:55] [INFO] mosquitto_new: Success
+
+[2025-01-15 16:11:55] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 16:11:55] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 16:11:55] [INFO] mosquitto_connect: Success
+
+[2025-01-15 16:11:55] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 16:11:55] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 16:11:56] [INFO] On Connect succuesfull!
+
+[2025-01-15 16:11:56] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:11:56] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:11:56] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:11:56] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:11:56] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:18:02] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 16:18:02] [INFO] mosquitto_new: Success
+
+[2025-01-15 16:18:02] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 16:18:02] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 16:18:02] [INFO] mosquitto_connect: Success
+
+[2025-01-15 16:18:02] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 16:18:02] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 16:18:03] [INFO] On Connect succuesfull!
+
+[2025-01-15 16:18:03] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:18:03] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:18:03] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:18:03] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:26:01] [INFO] mosquitto_lib_init: Success
+
+[2025-01-15 16:26:01] [INFO] mosquitto_new: Success
+
+[2025-01-15 16:26:01] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-15 16:26:01] [INFO] mosquitto_tls_set: Success
+
+[2025-01-15 16:26:01] [INFO] mosquitto_connect: Success
+
+[2025-01-15 16:26:01] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-15 16:26:01] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-15 16:26:02] [INFO] On Connect succuesfull!
+
+[2025-01-15 16:26:02] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:26:02] [INFO] mosquitto_subscribe: Success
+
+[2025-01-15 16:26:02] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:26:02] [INFO] mosquitto_publish: Success
+
+[2025-01-15 16:26:02] [INFO] mosquitto_publish: Success
+
+[2025-01-16 11:07:47] [INFO] mosquitto_lib_init: Success
+
+[2025-01-16 11:07:47] [INFO] mosquitto_new: Success
+
+[2025-01-16 11:07:47] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-16 11:07:47] [INFO] mosquitto_tls_set: Success
+
+[2025-01-16 11:07:48] [INFO] mosquitto_connect: Success
+
+[2025-01-16 11:07:48] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-16 11:07:48] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-16 11:07:48] [INFO] On Connect succuesfull!
+
+[2025-01-16 11:07:48] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 11:07:48] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 11:07:48] [INFO] mosquitto_publish: Success
+
+[2025-01-16 11:07:49] [INFO] mosquitto_publish: Success
+
+[2025-01-16 11:11:49] [INFO] mosquitto_publish: Success
+
+[2025-01-16 11:15:42] [INFO] mosquitto_lib_init: Success
+
+[2025-01-16 11:15:42] [INFO] mosquitto_new: Success
+
+[2025-01-16 11:15:42] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-16 11:15:42] [INFO] mosquitto_tls_set: Success
+
+[2025-01-16 11:15:43] [INFO] mosquitto_connect: Success
+
+[2025-01-16 11:15:43] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-16 11:15:43] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-16 11:15:43] [INFO] On Connect succuesfull!
+
+[2025-01-16 11:15:43] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 11:15:43] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 11:15:43] [INFO] mosquitto_publish: Success
+
+[2025-01-16 11:16:07] [INFO] mosquitto_lib_init: Success
+
+[2025-01-16 11:16:07] [INFO] mosquitto_new: Success
+
+[2025-01-16 11:16:07] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-16 11:16:07] [INFO] mosquitto_tls_set: Success
+
+[2025-01-16 11:16:08] [INFO] mosquitto_connect: Success
+
+[2025-01-16 11:16:08] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-16 11:16:08] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-16 11:16:08] [INFO] On Connect succuesfull!
+
+[2025-01-16 11:16:08] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 11:16:08] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 11:16:08] [INFO] mosquitto_publish: Success
+
+[2025-01-16 11:16:09] [INFO] mosquitto_publish: Success
+
+[2025-01-16 11:18:27] [INFO] mosquitto_lib_init: Success
+
+[2025-01-16 11:18:27] [INFO] mosquitto_new: Success
+
+[2025-01-16 11:18:27] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-16 11:18:27] [INFO] mosquitto_tls_set: Success
+
+[2025-01-16 11:18:28] [INFO] mosquitto_connect: Success
+
+[2025-01-16 11:18:28] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-16 11:18:28] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-16 11:18:28] [INFO] On Connect succuesfull!
+
+[2025-01-16 11:18:28] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 11:18:28] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 11:18:28] [INFO] mosquitto_publish: Success
+
+[2025-01-16 11:18:29] [INFO] mosquitto_publish: Success
+
+[2025-01-16 16:33:26] [INFO] mosquitto_lib_init: Success
+
+[2025-01-16 16:33:26] [INFO] mosquitto_new: Success
+
+[2025-01-16 16:33:26] [INFO] mosquitto_username_pw_set: Success
+
+[2025-01-16 16:33:26] [INFO] mosquitto_tls_set: Success
+
+[2025-01-16 16:33:26] [INFO] mosquitto_connect: Success
+
+[2025-01-16 16:33:26] [INFO] mosquitto_connect_callback_set: Success
+
+[2025-01-16 16:33:26] [INFO] mosquitto_message_callback_set: Success
+
+[2025-01-16 16:33:27] [INFO] On Connect succuesfull!
+
+[2025-01-16 16:33:27] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 16:33:27] [INFO] mosquitto_subscribe: Success
+
+[2025-01-16 16:33:27] [INFO] mosquitto_publish: Success
+
+[2025-01-16 16:33:28] [INFO] mosquitto_publish: Success
+
