@@ -1,0 +1,26 @@
+Release Notes – OTA_Base_Code_v1.5
+Version: [1.5]
+Release Date: [21-01-2025]
+Author: [Madhuri J M]
+
+1. Overview
+Server:
+Improved file transfer from the server to connected devices by implementing checksum functionality.
+Integrated a retry mechanism for MQTT connections to enhance reliability.
+Enhanced error handling and failure case management for MQTT wrapper functionalities.
+
+Device:
+Improved device connection to the MQTT broker, enabling it to send its Device ID and version to the server.
+Enhanced file reception process, allowing the device to receive the .bin file from the server.
+Upon successful file reception, the device now acknowledges the server with its Device ID, checksum value, and updated version.
+
+2. In-Progress
+Enhancing the server functionality to ensure that the file is sent only to selected devices.
+
+3. Known Issues
+Server:
+The file is currently being sent to all connected devices, regardless of the selection criteria.
+Device:
+The device should be able to receive the file from the server when in a connected state.
+
+[Madhuri J M] - Further implementations and optimizations are in progress 
