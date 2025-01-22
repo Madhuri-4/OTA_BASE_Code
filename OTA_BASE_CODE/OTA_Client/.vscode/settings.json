@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "exim_file_management.h": "c",
+        "subscriber.h": "c",
+        "mosquitto.h": "c",
+        "mqtt.h": "c",
+        "stdio.h": "c",
+        "device_config.h": "c",
+        "cstdlib": "c",
+        "exim_mqtt.h": "c",
+        "file_management.h": "c",
+        "time.h": "c",
+        "stat.h": "c",
+        "string.h": "c"
+    }
+}

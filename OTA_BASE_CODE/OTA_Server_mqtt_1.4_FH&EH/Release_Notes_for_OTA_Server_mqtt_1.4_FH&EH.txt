@@ -1,0 +1,16 @@
+Release Notes – OTA_Server_mqtt_1.4_FH&EH
+Version: [1.4]
+Release Date: [21-01-2025]
+Author: [Navya]
+
+1. Overview
+
+This release improves error handling and adds failure conditions in the OTA_Server_mqtt_1.4 module. The update ensures that issues such as invalid parameters or connection failures are properly handled and logged. This makes the system more stable and easier to debug.
+
+2. New Features & Enhancements
+
+Improved Error Handling: Enhanced validation checks and error logging for the MQTT connection setup and related functions.
+Failure Conditions: Added failure conditions handling in key functions to ensure better fault tolerance and resilience in the system.
+Better Debugging: Enhanced logging for better clarity and to assist in debugging issues related to MQTT connections and configurations.
+
+[Navya] – Implemented Error handling and Failure Conditions for MQTT Wrapper Libraries
