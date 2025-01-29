@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/navyasahiti/Server_failure_conditions_v1.4/OTA_Server_mqtt_1.4_latest/OTA_Server_mqtt_3/OTA_Server_mqtt/src/myenv
+set -gx VIRTUAL_ENV '/home/madhurijinka/Workings/OTA-firmware_V1.2/OTA_BASE_CODE (Copy)/OTA_Server_mqtt/src/myenv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

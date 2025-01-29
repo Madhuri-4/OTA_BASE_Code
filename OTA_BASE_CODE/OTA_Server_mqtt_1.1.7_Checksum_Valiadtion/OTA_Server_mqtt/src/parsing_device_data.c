@@ -34,13 +34,6 @@
  */
 
 #include "../include/file_transfer_utils.h"
-#include <openssl/evp.h>
-#include <openssl/rand.h>
-#include <openssl/pem.h>
-#include <openssl/rsa.h>
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 char **selected_devices = NULL; //char array to store the selected devices ID
 int selected_device_count = 0; //variable to handle number of selected devices
@@ -48,110 +41,20 @@ char *device_id;  // Buffer to hold device ID
 pthread_mutex_t selected_devices_lock = PTHREAD_MUTEX_INITIALIZER; // Mutex to protect access to the selected devices list.
 #define MAX_SELECTED_DEVICES 30  // Maximum number of selected devices allowed.
 
-#define AES_KEY_SIZE 256
-#define RSA_KEY_SIZE 2048
-
-#define AES_BLOCK_SIZE 16 
-
-const char *firmware_file = "/home/navyasahiti/Server_failure_conditions_v1.4/OTA_Server_mqtt_1.4_latest/OTA_Server_mqtt_3/OTA_Server_mqtt/src/firmware_v1.0.bin";
-const char *encrypted_file = "/home/navyasahiti/Server_failure_conditions_v1.4/OTA_Server_mqtt_1.4_latest/OTA_Server_mqtt_3/OTA_Server_mqtt/src/firmware_encrypted.bin";
-const char *private_key_file = "private_key.pem";
-const char *signature_file = "firmware_signature.sig";
-
-// Function to encrypt firmware using AES
-int encrypt_firmware(const char *input_file, const char *output_file, unsigned char *key, unsigned char *iv) {
-    FILE *in = fopen(input_file, "rb");
-    FILE *out = fopen(output_file, "wb");
-
-    if (!in || !out) {
-        fprintf(stderr, "Error opening files for encryption.\n");
-        return -1;
-    }
-
-    EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();
-    EVP_EncryptInit_ex(ctx, EVP_aes_256_cbc(), NULL, key, iv);
-
-    unsigned char buffer[1024], ciphertext[1040];
-    int len, ciphertext_len;
-
-    while ((len = fread(buffer, 1, sizeof(buffer), in)) > 0) {
-        EVP_EncryptUpdate(ctx, ciphertext, &ciphertext_len, buffer, len);
-        fwrite(ciphertext, 1, ciphertext_len, out);
-    }
-
-    EVP_EncryptFinal_ex(ctx, ciphertext, &ciphertext_len);
-    fwrite(ciphertext, 1, ciphertext_len, out);
-
-    EVP_CIPHER_CTX_free(ctx);
-    fclose(in);
-    fclose(out);
-
-    printf("Firmware encrypted successfully.\n");
-    return 0;
-}
-
-// Function to sign the encrypted firmware file
-int sign_firmware(const char *data_file, const char *key_file, const char *signature_file) {
-    FILE *key_fp = fopen(key_file, "r");
-    if (!key_fp) {
-        fprintf(stderr, "Unable to open private key file.\n");
-        return -1;
-    }
-
-    RSA *rsa_key = PEM_read_RSAPrivateKey(key_fp, NULL, NULL, NULL);
-    fclose(key_fp);
-
-    FILE *data_fp = fopen(data_file, "rb");
-    fseek(data_fp, 0, SEEK_END);
-    long data_len = ftell(data_fp);
-    rewind(data_fp);
-
-    unsigned char *data = malloc(data_len);
-    fread(data, 1, data_len, data_fp);
-    fclose(data_fp);
-
-    unsigned char signature[256];
-    unsigned int sig_len;
-
-    if (!RSA_sign(NID_sha256, data, data_len, signature, &sig_len, rsa_key)) {
-        fprintf(stderr, "Error signing firmware.\n");
-        RSA_free(rsa_key);
-        free(data);
-        return -1;
-    }
-
-    RSA_free(rsa_key);
-
-    FILE *sig_fp = fopen(signature_file, "wb");
-    fwrite(signature, 1, sig_len, sig_fp);
-    fclose(sig_fp);
-
-    free(data);
-    printf("Firmware signed successfully.\n");
-    return 0;
-}
-
-// Function to handle the encryption and signing logic
-void handle_firmware_encryption_and_signing() {
-    // Generate AES key and IV
-    unsigned char aes_key[AES_KEY_SIZE / 8];
-    unsigned char aes_iv[AES_BLOCK_SIZE];
-    RAND_bytes(aes_key, sizeof(aes_key));
-    RAND_bytes(aes_iv, sizeof(aes_iv));
-
-    // Encrypt the firmware file
-    if (encrypt_firmware(firmware_file, encrypted_file, aes_key, aes_iv) != 0) {
-        return;
-    }
-
-    // Sign the encrypted firmware
-    if (sign_firmware(encrypted_file, private_key_file, signature_file) != 0) {
-        return;
-    }
-
-    // The server code can then send these files (encrypted firmware and signature) over to the client.
-}
-
+/**
+ * Brief:
+ * Parse the SELECTED_CLIENTS environment variable and storing those values/ID in an array
+ * Parses a comma-separated list of client identifiers and stores them
+ * in the `selected_clients` array. This function modifies the input string `clients_str` by using `strtok`.
+ * If the original string needs to remain unaltered, create a copy
+ * before passing it to this function.
+ *
+ * parameters :
+ * clients_str - A string containing comma-separated client identifiers.
+ *               Example: "client1,client2,client3"
+ * 
+ * Return: NONE
+ */
 void parse_selected_devices(const char *clients_str) {
     // Check for null input
     if (clients_str == NULL) {

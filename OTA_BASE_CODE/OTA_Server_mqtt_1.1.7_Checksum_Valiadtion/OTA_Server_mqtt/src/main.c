@@ -47,7 +47,7 @@
 #include "../include/file_transfer_utils.h"
 
 const char *file_path = "https://raw.githubusercontent.com/Madhuri-4/OTA_BASE_Code/main/OTA_BASE_CODE/firmware_v1.0.bin";
-//const char *firmware_file = "firmware_v1.0.bin";
+const char *firmware_file = "firmware_v1.0.bin";
 
 char server_checksum[MD5_DIGEST_LENGTH * 2 + 1] = {0}; // Initialize buffer to store MD5 checksum (hex format) of server file, with null-terminator
 size_t total_data_size = 0;
@@ -102,10 +102,9 @@ void send_file_in_bytes(struct mosquitto *mosq, const char *file_path, const cha
  */
 int main() {
     struct mosquitto *mosq;
-    int rc; // the rc code of the broker connectionconst unsigned char plaintext[] = "Firmware data";
-    
+    int rc; // the rc code of the broker connection
 
-    
+
     // Reading the MQTT topic from an environment variable set by the UI, which specifies the selected clients list.
     char *ui_mqtt_topic = getenv("DEVICE_LIST");
     if (ui_mqtt_topic == NULL) {
@@ -120,12 +119,8 @@ int main() {
          return 1;
     }
 
-
-    
     // Check whether the device IP is in the selected clients list
     parse_selected_devices(selected_devices_str);
-
-    handle_firmware_encryption_and_signing();
 
     // Initialize mosquitto library for mqtt operations
     exim_mosquitto_lib_init();
