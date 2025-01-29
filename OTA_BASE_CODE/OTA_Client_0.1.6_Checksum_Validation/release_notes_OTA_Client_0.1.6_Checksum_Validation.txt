@@ -1,0 +1,11 @@
+Release Notes – OTA_Server_mqtt_0.1.6_Checksum_validations
+Version: [0.1.6]
+Release Date: [29-01-2025]
+Author: [Navya]
+
+1. Overview
+
+Implemented functionality on the device side to receive the firmware file from the server, download it, and verify the integrity by comparing the received file with the downloaded file to ensure they are identical.
+
+[Navya] – CheckSum Validation Implementation
+
