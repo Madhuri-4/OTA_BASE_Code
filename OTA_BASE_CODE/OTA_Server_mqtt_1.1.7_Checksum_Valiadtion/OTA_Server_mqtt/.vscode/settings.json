@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "mosquitto.h": "c",
+        "md5.h": "c",
+        "exim_mqtt.h": "c"
+    }
+}

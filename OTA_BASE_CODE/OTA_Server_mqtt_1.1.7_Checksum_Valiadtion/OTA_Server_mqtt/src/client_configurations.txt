@@ -1,0 +1,26 @@
+Device_R,192.168.1.106,Enable, 1.0, 1.1
+Device_M,192.168.20.53,Enable, 1.0, 1.1
+Device_b,192.168.1.107,Enable, 1.0, 1.1
+Device_S,192.168.1.109,Enable, 1.0, 1.1
+Device_N,192.168.1.130,Enable, 1.0, 1.1
+OTA_Client_NA1,192.168.20.122,Enable, 1.0, 1.1
+OTA_Client_b1,192.168.1.124,Enable, 1.0, 1.1
+OTA_Client_b2,192.168.1.128,Enable, 1.0, 1.1
+OTA_Client_b3,1192.168.1.126,Enable, 1.0, 1.1
+OTA_Client_b4,192.168.1.127,Enable,1.0,1.1
+OTA_Client_b5,192.168.1.125,Enable,1.0,1.1
+OTA_Client_S1,192.168.1.119,Disable, 1.0, 1.1
+OTA_Client_S2,192.168.1.118,Enable, 1.0, 1.1
+OTA_Client_S3,192.168.1.117,Enable, 1.0, 1.1
+OTA_Client_S4,192.168.1.110,Enable,1.0,1.1
+OTA_Client_S5,192.168.1.111,Enable,1.0,1.1
+OTA_Client_r1,192.168.1.108,Enable, 1.0, 1.1
+OTA_Client_r2,192.168.1.114,Disable, 1.0, 1.1
+OTA_Client_r3,192.168.1.113,Enable, 1.0, 1.1
+OTA_Client_r4,192.168.1.115,Disable, 1.0, 1.1
+OTA_Client_r5,192.168.1.112,Enable, 1.0, 1.1
+OTA_Client_n1,192.168.1.120,Enable, 1.0, 1.1
+OTA_Client_n2,192.168.1.121,Enable, 1.0, 1.1
+OTA_Client_n3,192.168.1.104,Enable, 1.0, 1.1
+OTA_Client_n4,192.168.1.105,Enable, 1.0, 1.1
+OTA_Client_n5,192.168.1.106,Enable, 1.0, 1.1
