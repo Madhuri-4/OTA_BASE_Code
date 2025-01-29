@@ -1,4 +1,4 @@
-Release Notes – OTA_Server_mqtt_0.1.6_Checksum_validations
+Release Notes – OTA_Client_0.1.6_Checksum_validations
 Version: [0.1.6]
 Release Date: [29-01-2025]
 Author: [Navya]
