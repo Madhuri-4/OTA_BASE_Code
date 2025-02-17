@@ -1,1 +1,1 @@
-Hii Hello
+AES (Advanced Encryption Standard) is a widely used encryption algorithm that provides secure data protection. It is used in various applications, including data transmission, file encryption, and secure communications.
